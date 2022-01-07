@@ -20,6 +20,7 @@ import os
 import time
 import shutil
 
+DEF_FONT_NAME = 'MingLiu'
 DEF_FONT_SIZE = 16
 
 SWITCH_LANG_WITH_BOTH_SHIFT = 0
@@ -55,6 +56,7 @@ class ChewingConfig:
         self.enableShiftSpace = True
         self.enableSwitchTCSC = True
         self.escCleanAllBuf = True
+        self.fontName = DEF_FONT_NAME
         self.fontSize = DEF_FONT_SIZE
         self.fullShapeSymbols = True
         self.fullShapeSymbolsWithShift = True
